@@ -70,8 +70,21 @@ namespace Advanced_C__Assignment01
              }
             */
             #endregion
+            #region Question06
+            /* Q6: What is a generic interface? Write IRepository<T>.
+                    ==>> Interface that can work with different data types
+                         and the data type is specified when we implement it
+
+            internal interface IRepository<T>
+            {
+                T Get(T entity);
+                T[] GetAll();
+                void Add(T entity);
+                void Update(T entity);
+                void Delete(T entity);
+            }                
+            */
+            #endregion
         }
-
     }
-
 }
