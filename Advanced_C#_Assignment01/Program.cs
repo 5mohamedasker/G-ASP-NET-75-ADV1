@@ -165,6 +165,18 @@ namespace Advanced_C__Assignment01
             }
             */
             #endregion
+            #region Question012
+            /*Q12: How do you apply multiple constraints? Write an example.
+                    ==>> Multiple constraints are specified after where T : and separated by commas
+                         and it must keep this arrangement class or struct -> Interfaces -> new() 
+                         and also we can make it without class or struct, or without any one of them 
+
+            public static void print<T> (T thing) where T : class, IPrintable, new()
+            {
+                Console.WriteLine($"Thing : {thing}");
+            }             
+            */
+            #endregion
         }
 
     }
