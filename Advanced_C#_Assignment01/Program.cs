@@ -1,4 +1,6 @@
-﻿namespace Advanced_C__Assignment01
+﻿using System.ComponentModel;
+
+namespace Advanced_C__Assignment01
 {
     internal class Program
     {
@@ -14,6 +16,22 @@
                     which improves code reusability and type safety
             */
             #endregion
+            #region Question02
+            //Q2: Write a generic class Container<T> with Add and Get methods.
+            //internal class Container<T>
+            //{
+            //    private T Value { get; set; }
+            //    public void Add(T item)
+            //    {
+            //        Value = item;
+            //    }
+            //    public T Get()
+            //    {
+            //        return Value;
+            //    }
+            //}
+            #endregion
         }
     }
+    
 }
