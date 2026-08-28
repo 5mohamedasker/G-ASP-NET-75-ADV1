@@ -201,6 +201,12 @@ namespace Advanced_C__Assignment01
              
             */
             #endregion
+            #region Question015
+            /*Q15: What is covariance? Explain the 'out' keyword.
+                    ==>> covariance means that type we use it as output only
+                   'out' means we use the type as return type or out type only
+            */
+            #endregion
         }
 
     }
