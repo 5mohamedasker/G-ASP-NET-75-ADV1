@@ -231,6 +231,13 @@ namespace Advanced_C__Assignment01
                     string will have a completely different static member than the integers.          
             */
             #endregion
+            #region Question019
+            /*Q19: How can you inherit from a generic class?
+                    ==>>inherits and determines the type
+                        but if we don't know the type yet
+                        we can postpone it until we determine the type of the child class.
+            */
+            #endregion
         }
 
     }
