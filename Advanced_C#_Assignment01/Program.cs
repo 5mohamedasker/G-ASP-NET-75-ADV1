@@ -182,6 +182,25 @@ namespace Advanced_C__Assignment01
                     ==>> It returns the default value of a generic type
             */
             #endregion
+            #region Question014
+            /*Q14: Write a SafeList<T> that returns default when the index is invalid.
+  
+                    internal class SafeList<T>
+                    {
+                        List<T> list;
+
+                        public T GetIndexValue(int index)
+                        {
+                            if (index >= 0 && index < list.Count )
+                            {
+                                return list[index];
+                            }
+                            return default;
+                        }
+                    }
+             
+            */
+            #endregion
         }
 
     }
