@@ -213,6 +213,17 @@ namespace Advanced_C__Assignment01
                      'in' means we use the type as parameters or input only
             */
             #endregion
+            #region Question017
+            /* Q17: What is the difference between covariance and contravariance?
+                =========================================================
+                        Covariance           |       Contravariance
+                =============================|===========================
+                         out	             |       in
+                         output	             |       input
+                         child -> parent	 |       parent -> child
+                =========================================================
+             */
+            #endregion
         }
 
     }
