@@ -177,6 +177,11 @@ namespace Advanced_C__Assignment01
             }             
             */
             #endregion
+            #region Question013
+            /*Q13: What does the 'default' keyword do in generics?
+                    ==>> It returns the default value of a generic type
+            */
+            #endregion
         }
 
     }
