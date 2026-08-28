@@ -139,6 +139,32 @@ namespace Advanced_C__Assignment01
              }
              */
             #endregion
+            #region Question011
+            /* Q11: What is the base class constraint? Write an example.
+                     ==>> that means No one can use me except a specific class and which class inherits from it
+            public class Animal
+            {
+                public string name;
+                public override string ToString()
+                {
+                    return $" Animal Name : {name}";
+                }
+            }
+
+            public class dog : Animal
+            {
+                public override string ToString()
+                {
+                    return $"Dog Name : {name}";
+                }
+            }
+
+            public static void printAnimal<T>(T animal) where T : Animal
+            {
+                Console.WriteLine(animal.ToString());
+            }
+            */
+            #endregion
         }
 
     }
