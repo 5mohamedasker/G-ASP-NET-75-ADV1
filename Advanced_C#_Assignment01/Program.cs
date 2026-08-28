@@ -31,7 +31,14 @@ namespace Advanced_C__Assignment01
             //    }
             //}
             #endregion
+            #region Question03
+            /*Q3: What are multiple type parameters? Write Pair<TKey, TValue>.
+                   ==>>It mean that a generic class can work with more than one data type at the same time
+                       instead of using only one type paramete
+                   ==>> internal class Pair<TKey, TValue>{.....}
+            */
+            #endregion
         }
     }
-    
+
 }
