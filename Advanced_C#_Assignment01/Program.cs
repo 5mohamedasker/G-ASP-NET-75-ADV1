@@ -38,6 +38,19 @@ namespace Advanced_C__Assignment01
                    ==>> internal class Pair<TKey, TValue>{.....}
             */
             #endregion
+            #region Question04
+            /*Q4: What is a generic method? Write Swap<T> method.
+                   ==>> Method that can work with different data types
+                        and the data type is specified when we call it
+                
+            public static void Swap<T>(ref T x,ref T y)
+                {
+                    T z = x;
+                    x = y;
+                    y = z;
+                }       
+            */
+            #endregion
         }
     }
 
