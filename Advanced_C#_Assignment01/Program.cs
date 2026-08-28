@@ -105,9 +105,18 @@ namespace Advanced_C__Assignment01
             }
             */
             #endregion
+            #region Question09
+            /*Q9: What is the 'new()' constraint? Write an example
+                   ==>> Anyone who uses me must have parameterless constructor
+                
+            public static void print<T> (T thing) where T : new()
+            {
+                Console.WriteLine($"Thing : {thing}");
+            }
+             
+            */
+            #endregion
         }
-
-
 
     }
 }
