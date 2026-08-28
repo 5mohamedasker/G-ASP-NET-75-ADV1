@@ -224,6 +224,13 @@ namespace Advanced_C__Assignment01
                 =========================================================
              */
             #endregion
+            #region Question018
+            /*Q18: How do static members work in generic types?
+                    ==>This member will be shared between all objects of the same type
+                    Explanations: If we specify the type once as integers and another one as string
+                    string will have a completely different static member than the integers.          
+            */
+            #endregion
         }
 
     }
