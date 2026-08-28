@@ -116,6 +116,29 @@ namespace Advanced_C__Assignment01
              
             */
             #endregion
+            #region Question010
+            /*Q10:  What is the interface constraint? Write an example.
+                      ==>>that means I don't care whether T is a specific class
+                          what is important is that it implements a specific interface
+                          so that I can use its methods and properties
+
+             //Here all that matters to me is find CompareTo
+             public static T FindMax<T>(T[] values) where T : IComparable<T>
+             {
+                if (values is not null && values.Length > 0)
+                    {
+                        T max = values[0];
+                        foreach (T value in values)
+                        {
+                            if (value.CompareTo(max)>0)
+                                max= value;
+                        }
+                        return max;
+                    }
+                return default;
+             }
+             */
+            #endregion
         }
 
     }
