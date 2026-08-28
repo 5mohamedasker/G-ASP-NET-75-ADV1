@@ -85,6 +85,19 @@ namespace Advanced_C__Assignment01
             }                
             */
             #endregion
+            #region Question07
+            /*Q7: What is the 'struct' constraint? Write an example.
+                    ==>> This means that no one can use it except struct data types.
+                
+            public static void print<T> (T thing) where T : struct
+            {
+                Console.WriteLine($"Thing : {thing}");
+            }
+            */
+            #endregion
         }
+
+
+
     }
 }
