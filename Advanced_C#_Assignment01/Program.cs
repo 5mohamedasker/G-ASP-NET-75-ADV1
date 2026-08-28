@@ -95,6 +95,16 @@ namespace Advanced_C__Assignment01
             }
             */
             #endregion
+            #region Question08
+            /*Q8: What is the 'class' constraint? Write an example.
+                   ==>> This means that no one can use it except class data types
+             
+            public static void print<T> (T thing) where T : class
+            {
+                Console.WriteLine($"Thing : {thing}");
+            }
+            */
+            #endregion
         }
 
 
