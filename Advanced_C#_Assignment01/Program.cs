@@ -207,6 +207,12 @@ namespace Advanced_C__Assignment01
                    'out' means we use the type as return type or out type only
             */
             #endregion
+            #region Question016
+            /* Q16: What is contravariance? Explain the 'in' keyword.
+                     ==>> contravariance means that type we use it as input only
+                     'in' means we use the type as parameters or input only
+            */
+            #endregion
         }
 
     }
