@@ -51,7 +51,27 @@ namespace Advanced_C__Assignment01
                 }       
             */
             #endregion
+            #region Question05
+            /*Q5: Write a generic method FindMax<T> that finds maximum value
+                   
+             public static T FindMax<T>(T[] values) where T : IComparable<T>
+             {
+                if (values is not null && values.Length > 0)
+                    {
+                        T max = values[0];
+                        foreach (T value in values)
+                        {
+                            if (value.CompareTo(max)>0)
+                                max= value;
+                        }
+                        return max;
+                    }
+                return default;
+             }
+            */
+            #endregion
         }
+
     }
 
 }
